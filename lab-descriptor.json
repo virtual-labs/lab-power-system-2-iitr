@@ -1,103 +1,102 @@
 {
-  "broadArea": {
-    "name": "Electrical Engineering",
-    "link": "https://www.vlab.co.in/broad-area-electrical-engineering",
-    "code": "EE"
-  },
-  "lab": "Power System Lab 2",
-  "lab_display_name": "Power System Lab 2",
-  "phase": "3-ext",
-  "collegeName": "IITR",
-  "baseUrl": "ps2-iitr.vlabs.ac.in",
-  "introduction": "The Power System Laboratory is designed to provide practical exposure to the fundamental concepts and analytical techniques used in the planning, operation, control, and stability assessment of modern electrical power systems. Through a series of simulation-based experiments, students learn to model power system networks, perform power flow and stability analyses, evaluate system security under contingencies, and understand economic and operational aspects such as load–frequency control and economic dispatch. This laboratory bridges the gap between theoretical knowledge and real-world power system applications, enabling learners to analyze complex power networks and develop skills essential for power system engineering practice.",
-  "experiments": [
-  {
-    "name": "Formation of Bus Admittance (YBUS) Matrix of Power System Network",
-    "short-name": "ybus-matrix",
-    "repo": "https://github.com/virtual-labs/exp-ybus-matrix-iitr",
-    "tag": "v1.0.0",
-    "deploy": true
-  },
-  {
-    "name": "Power Flow Analysis using Gauss-Seidel Method",
-    "short-name": "gauss-seidel-powerflow",
-    "repo": "https://github.com/virtual-labs/exp-gauss-seidel-iitr",
-    "tag": "v1.0.0",
-    "deploy": true
-  },
-  {
-    "name": "Power Flow Analysis using Newton-Raphson Method",
-    "short-name": "newton-raphson-powerflow",
-    "repo": "https://github.com/virtual-labs/exp-powerflow-newton-raphson-iitr",
-    "tag": "v1.0.0",
-    "deploy": true
-  },
-  {
-    "name": "Power Flow Analysis using Fast Decoupled Method",
-    "short-name": "fast-decoupled-powerflow",
-    "repo": "https://github.com/virtual-labs/exp-powerflow-fast-decoupled-iitr",
-    "tag": "v1.0.0",
-    "deploy": true
-  },
-  {
-    "name": "DC / Linear Power Flow Analysis",
-    "short-name": "dc-linear-powerflow",
-    "repo": "https://github.com/virtual-labs/exp-dc-linear-powerflow-iitr",
-    "tag": "v1.0.0",
-    "deploy": true
-  },
-  {
-    "name": "Transient Stability Analysis for Single Machine Infinite Bus (SMIB) System",
-    "short-name": "smib-transient-stability",
-    "repo": "https://github.com/virtual-labs/exp-smib-system-iitr",
-    "tag": "v1.0.0",
-    "deploy": true
-  },
-  {
-    "name": "Load Frequency Control: Droop Control and Power Sharing",
-    "short-name": "load-frequency-control",
-    "repo": "https://github.com/virtual-labs/exp-lfc-dc-iitr",
-    "tag": "v1.0.0",
-    "deploy": true
-  },
-  {
-    "name": "Power System State Estimation",
-    "short-name": "state-estimation",
-    "repo": "https://github.com/virtual-labs/exp-state-estimation-iitr",
-    "tag": "v1.0.0",
-    "deploy": true
-  },
-  {
-    "name": "Contingency Analysis of Power System",
-    "short-name": "contingency-analysis",
-    "repo": "https://github.com/virtual-labs/exp-contingency-analysis-iitr",
-    "tag": "v1.0.0",
-    "deploy": true
-  },
-  {
-    "name": "Economic Dispatch using Lambda Iteration Method",
-    "short-name": "economic-dispatch-lambda",
-    "repo": "https://github.com/virtual-labs/exp-lambda-iteration-iitr",
-    "tag": "v1.0.0",
-    "deploy": true
-  }
-],
-  "targetAudience": {
-    "UG": [
-      "3rd Year"
+    "broadArea": {
+        "name": "Electrical Engineering",
+        "link": "https://www.vlab.co.in/broad-area-electrical-engineering",
+        "code": "EE"
+    },
+    "lab": "Power System Lab 2",
+    "lab_display_name": "Power System Lab 2",
+    "phase": "3-ext",
+    "collegeName": "IITR",
+    "baseUrl": "ps2-iitr.vlabs.ac.in",
+    "introduction": "The Power System Laboratory is designed to provide practical exposure to the fundamental concepts and analytical techniques used in the planning, operation, control, and stability assessment of modern electrical power systems. Through a series of simulation-based experiments, students learn to model power system networks, perform power flow and stability analyses, evaluate system security under contingencies, and understand economic and operational aspects such as load–frequency control and economic dispatch. This laboratory bridges the gap between theoretical knowledge and real-world power system applications, enabling learners to analyze complex power networks and develop skills essential for power system engineering practice.",
+    "experiments": [
+        {
+            "name": "Formation of Bus Admittance (YBUS) Matrix of Power System Network",
+            "short-name": "ybus-matrix",
+            "repo": "https://github.com/virtual-labs/exp-ybus-matrix-iitr",
+            "tag": "v1.0.0",
+            "deploy": true
+        },
+        {
+            "name": "Power Flow Analysis using Gauss-Seidel Method",
+            "short-name": "gauss-seidel-powerflow",
+            "repo": "https://github.com/virtual-labs/exp-gauss-seidel-iitr",
+            "tag": "v1.0.0",
+            "deploy": true
+        },
+        {
+            "name": "Power Flow Analysis using Newton-Raphson Method",
+            "short-name": "newton-raphson-powerflow",
+            "repo": "https://github.com/virtual-labs/exp-powerflow-newton-raphson-iitr",
+            "tag": "v1.0.0",
+            "deploy": true
+        },
+        {
+            "name": "Power Flow Analysis using Fast Decoupled Method",
+            "short-name": "fast-decoupled-powerflow",
+            "repo": "https://github.com/virtual-labs/exp-powerflow-fast-decoupled-iitr",
+            "tag": "v1.0.0",
+            "deploy": true
+        },
+        {
+            "name": "DC / Linear Power Flow Analysis",
+            "short-name": "dc-linear-powerflow",
+            "repo": "https://github.com/virtual-labs/exp-dc-linear-powerflow-iitr",
+            "tag": "v1.0.0",
+            "deploy": true
+        },
+        {
+            "name": "Transient Stability Analysis for Single Machine Infinite Bus (SMIB) System",
+            "short-name": "smib-transient-stability",
+            "repo": "https://github.com/virtual-labs/exp-smib-system-iitr",
+            "tag": "v1.0.0",
+            "deploy": true
+        },
+        {
+            "name": "Load Frequency Control: Droop Control and Power Sharing",
+            "short-name": "load-frequency-control",
+            "repo": "https://github.com/virtual-labs/exp-lfc-dc-iitr",
+            "tag": "v1.0.0",
+            "deploy": true
+        },
+        {
+            "name": "Power System State Estimation",
+            "short-name": "state-estimation",
+            "repo": "https://github.com/virtual-labs/exp-state-estimation-iitr",
+            "tag": "v1.0.0",
+            "deploy": true
+        },
+        {
+            "name": "Contingency Analysis of Power System",
+            "short-name": "contingency-analysis",
+            "repo": "https://github.com/virtual-labs/exp-contingency-analysis-iitr",
+            "tag": "v1.0.0",
+            "deploy": true
+        },
+        {
+            "name": "Economic Dispatch using Lambda Iteration Method",
+            "short-name": "economic-dispatch-lambda",
+            "repo": "https://github.com/virtual-labs/exp-lambda-iteration-iitr",
+            "tag": "v1.0.0",
+            "deploy": true
+        }
     ],
-    "PG": [
-      ""
-    ]
-  },
-  "objective": "To provide students with hands-on experience in modeling, analysis, control, stability assessment, security evaluation, and economic operation of electrical power systems using computational and simulation-based techniques, thereby strengthening their understanding of real-world power system behavior and decision-making processes.",
-  "courseAlignment": {
-    "description": "The syllabi of this lab aligns to the following universities in India.",
-    "universities": [
-      "Indian Institute of Technology Delhi; ELP871",
-      "Indian Institute of Technology Bombay; EE238",
-      "Indian Institute of Technology Kanpur; EE330A"
-    ]
-
- 
+    "targetAudience": {
+        "UG": [
+            "3rd Year"
+        ],
+        "PG": [
+            ""
+        ]
+    },
+    "objective": "To provide students with hands-on experience in modeling, analysis, control, stability assessment, security evaluation, and economic operation of electrical power systems using computational and simulation-based techniques, thereby strengthening their understanding of real-world power system behavior and decision-making processes.",
+    "courseAlignment": {
+        "description": "The syllabi of this lab aligns to the following universities in India.",
+        "universities": [
+            "Indian Institute of Technology Delhi; ELP871",
+            "Indian Institute of Technology Bombay; EE238",
+            "Indian Institute of Technology Kanpur; EE330A"
+        ]
+    }
 }
