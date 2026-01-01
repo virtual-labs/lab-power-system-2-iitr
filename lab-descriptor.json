@@ -36,7 +36,7 @@
             "name": "Power Flow Analysis using Fast Decoupled Method",
             "short-name": "fast-decoupled-powerflow",
             "repo": "https://github.com/virtual-labs/exp-powerflow-fast-decoupled-iitr",
-            "tag": "v1.0.0",
+            "tag": "v1.0.1",
             "deploy": true
         },
         {
@@ -64,7 +64,7 @@
             "name": "Power System State Estimation",
             "short-name": "state-estimation",
             "repo": "https://github.com/virtual-labs/exp-state-estimation-iitr",
-            "tag": "v1.0.0",
+            "tag": "v1.0.1",
             "deploy": true
         },
         {
